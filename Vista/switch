@@ -1,0 +1,22 @@
+var num;
+num = prompt{'inrtroduce un numero'.''};
+num = parseInt = (num);
+
+
+switch(num){
+	case 1:
+	document.write("has escogido el numero 1");
+	break;
+case 2:
+document.write("has escogido el numero 2");
+break;
+
+case 3:
+document.write("has escogido es numero 3");
+break;
+
+default:
+document.write("has escogido un numero diferente que no esta en el inventario de 1 al 3");
+break;
+
+}
